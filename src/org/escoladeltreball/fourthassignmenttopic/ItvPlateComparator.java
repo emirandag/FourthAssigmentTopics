@@ -24,6 +24,7 @@ public class ItvPlateComparator implements Comparator<Itv> {
 	@Override
 	public int compare(Itv itv1, Itv itv2) {
 		return itv1.getMatricula().compareTo(itv2.getMatricula());
+		
 	}
 
 }
